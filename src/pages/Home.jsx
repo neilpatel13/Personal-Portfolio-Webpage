@@ -18,3 +18,5 @@ export const Home = () => {
         </div>
     );  
 };
+
+// got the stars and meteors working, now need to add the navbar and footer
