@@ -53,7 +53,7 @@ export const Navbar = () => {
           ))}
         </div>
 
-        {/* mobile nav */}
+        {/* mobile nav */} 
 
         <button
           onClick={() => setIsMenuOpen((prev) => !prev)}
@@ -89,3 +89,6 @@ export const Navbar = () => {
     </nav>
   );
 };
+
+// completed the Navbar component with responsive design and scroll effects
+// video: 1.18.30
