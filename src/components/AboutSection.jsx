@@ -80,4 +80,5 @@ export const AboutSection = () => {
             </div>
         </div>
     </section>);
-};
+}; //about me section completed, now need to add the projects section and footer
+// video at 1.40.50
