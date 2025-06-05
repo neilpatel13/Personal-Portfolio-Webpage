@@ -1,4 +1,4 @@
-import { Code } from 'lucide-react';
+import { Briefcase, Code, Usb, User } from 'lucide-react';
 
 
 export const AboutSection = () => {
@@ -39,19 +39,38 @@ export const AboutSection = () => {
                             <div className="p-3 rounded-full bg-primary/10">
                                 <Code className="h-6 w-6 text-primary" />
                             </div>
-                        </div>
-                    </div>
-                    <div className="gradient-border p-6 card-hover">
-                        <div className="flex items-start gap-4">
-                            <div className="p-3 rounded-full bg-primary/10">
-                                <Code className="h-6 w-6 text-primary" />
+                            <div className='text-left'>
+                                <h4 className='font-semibold text-lg'> Web Development</h4>
+                                <p className='text-muted-foreground'> 
+                                    Another inserting of text
+                                    aaaaaaaa
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Code className="h-6 w-6 text-primary" />
+                                <User className="h-6 w-6 text-primary" />
+                            </div>
+                            <div className='text-left'>
+                                <h4 className='font-semibold text-lg'> NJIT STUDENT</h4>
+                                <p className='text-muted-foreground'> 
+                                    Completed an B.S and M.S in Computer Science
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="gradient-border p-6 card-hover">
+                        <div className="flex items-start gap-4">
+                            <div className="p-3 rounded-full bg-primary/10">
+                                <Briefcase className="h-6 w-6 text-primary" />
+                            </div>
+                            <div className='text-left'>
+                                <h4 className='font-semibold text-lg'> Insert 3</h4>
+                                <p className='text-muted-foreground'> 
+                                    IDK WHAT TO PUT HERE
+                                </p>
                             </div>
                         </div>
                     </div>
