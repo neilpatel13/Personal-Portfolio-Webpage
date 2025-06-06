@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 
 const skills =  [
@@ -23,10 +24,11 @@ const skills =  [
   { name: "VS Code", level: 95, category: "tools" },
 ];
 
-
+const categories = ["all", "frontend", "backend", "tools"];
 
 
 export const SkillsSection = () => {
+      const [activeCategory, setActiveCategory] = useState("all")
     return (
         <section 
             id="skills" 
@@ -36,6 +38,12 @@ export const SkillsSection = () => {
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                     My <span className="text-primary"> Skills</span>
                 </h2>
+
+                <div className="flex felx-wrap justify-center gap-4 mb-12">
+
+
+                </div>
+
 
                 <div className="grid gird-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {skills.map((skill, key) => (
