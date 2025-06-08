@@ -108,4 +108,4 @@ export const ProjectsSection = () => {
       </div>
     </section>
   );
-};
+}; //project section completed, video at 2.13.30
