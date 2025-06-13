@@ -121,7 +121,7 @@ export const ContactSection = () => {
                   onSubmit={handleSubmit}
                 >
                     <h3 className="text-2xl font-semibold mb-6">
-                        Send a message
+                        Send a message (In Maintenance)
                     </h3>
                     <form className="space-y-6">
                         <div>
@@ -193,4 +193,4 @@ export const ContactSection = () => {
 
         </div>
     </section>
-};
+}; //Contact Section Complete video at 2.36.20
