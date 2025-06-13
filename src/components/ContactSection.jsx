@@ -1,8 +1,22 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone, Twitch, Twitter } from "lucide-react";
-
-
+import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitch, Twitter } from "lucide-react";
+import { cn } from "@/lib/utils";
+import { useToast } from "@/hooks/use-toast";
 
 export const ContactSection = () => {
+
+    const { toast } = useToast();
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+
+        setTimeout(() => {
+            toast({
+                title: "Message Sent",
+                description: "Thank you for your message, I will get back to you soon.",
+            });
+        }, 1500);
+
+    }
 
     return <section 
       id="contact" 
@@ -102,7 +116,10 @@ export const ContactSection = () => {
 
                 </div>
 
-                <div className="bg-card p-8 rounded-lg shadow-xs">
+                <div 
+                  className="bg-card p-8 rounded-lg shadow-xs" 
+                  onSubmit={handleSubmit}
+                >
                     <h3 className="text-2xl font-semibold mb-6">
                         Send a message
                     </h3>
@@ -159,6 +176,14 @@ export const ContactSection = () => {
                             />
                               
                         </div>
+                        <button type="submit" className={cn(
+                            "cosmic-button w-full flex items-center justify-center gap-2",
+
+                            )}>
+                                Send Message
+                                <Send size={16}/>
+                                
+                        </button>
 
                     </form>
 
