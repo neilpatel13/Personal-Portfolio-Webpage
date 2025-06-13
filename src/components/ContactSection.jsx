@@ -1,4 +1,4 @@
-import { Mail, Phone } from "lucide-react";
+import { Instagram, Linkedin, Mail, MapPin, Phone, Twitch, Twitter } from "lucide-react";
 
 
 
@@ -61,22 +61,43 @@ export const ContactSection = () => {
 
                         <div className="flex items-start space-x-4">
                             <div className="p-3 rounded-full bg-primary/10">
-                                <Mail className="h-6 w-6 text-primary"/>
+                                <MapPin className="h-6 w-6 text-primary"/>
                             </div>
                             <div>
                                 <h4 className="font-medium">
-                                    Email
+                                    Location
                                 </h4>
                                 <a 
-                                  href="mailto:13patelneil@gmail.com" 
                                   className="text-muted-foreground hover:text-primary transition-colors"
                                   >
-                                    13patelneil@gmail.com
+                                    New jersey, USA
                                 </a>
                             </div>
 
                         </div>
 
+                    </div>
+
+                    <div className="pt-8">
+                        <h4 className="font-medium mb-4">
+                            Connect With Me
+
+                        </h4>
+                        <div className="flex space-x-4 justify-center">
+                            <a href="#" target="_blank">
+                                <Linkedin />
+                            </a>
+                            <a href="#" target="_blank">
+                                <Twitter />
+                            </a>
+                            <a href="#" target="_blank">
+                                <Instagram />
+                            </a>
+                            <a href="#" target="_blank">
+                                <Twitch />
+                            </a>
+
+                        </div>
                     </div>
 
                 </div>
