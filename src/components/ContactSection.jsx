@@ -6,8 +6,12 @@ export const ContactSection = () => {
 
     const { toast } = useToast();
 
+    const [isSubmitting, setIsSubmitting] = useState(false);
+
     const handleSubmit = (e) => {
         e.preventDefault()
+        setIsSubmitting(true);
+
 
         setTimeout(() => {
             toast({
@@ -15,6 +19,8 @@ export const ContactSection = () => {
                 description: "Thank you for your message, I will get back to you soon.",
             });
         }, 1500);
+
+        setIsSubmitting(false);
 
     }
 
