@@ -8,8 +8,9 @@ export const Footer = () => {
                  &copy; {new Date().getFullYear()} Neil Patel. All rights reserved.
             </p>
 
-            <a href="#hero">
-                <ArrowUp />
+            <a href="#hero" 
+            className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors">
+                <ArrowUp size={30}/>
             </a>
         </footer>
 };
