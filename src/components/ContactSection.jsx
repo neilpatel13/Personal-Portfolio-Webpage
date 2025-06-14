@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitch, Twitter } from "lucide-react";
+import { BookType, Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitch, Twitter } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
 import { useState } from "react";
@@ -105,18 +105,18 @@ export const ContactSection = () => {
                             Connect With Me
 
                         </h4>
-                        <div className="flex space-x-4 justify-center">
-                            <a href="#" target="_blank">
+                        <div className="flex space-x-4 justify-center ">
+                            <a href="https://www.linkedin.com/in/neil-d-patel/" target="_blank" className="hover:text-primary transition-colors">
                                 <Linkedin />
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="https://bsky.app/profile/neilglect.bsky.social" target="_blank" className="hover:text-primary transition-colors">
                                 <Twitter />
                             </a>
-                            <a href="#" target="_blank">
+                            <a href="#" target="_blank" className="hover:text-primary transition-colors">
                                 <Instagram />
                             </a>
-                            <a href="#" target="_blank">
-                                <Twitch />
+                            <a href="https://drive.google.com/file/d/1TW92EYblg0xYP11uOi54hqLmyEkaKkgR/view?usp=sharing" target="_blank" className="hover:text-primary transition-colors">
+                                <BookType />
                             </a>
 
                         </div>
