@@ -1,6 +1,7 @@
 import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitch, Twitter } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
+import { useState } from "react";
 
 export const ContactSection = () => {
 
@@ -18,9 +19,10 @@ export const ContactSection = () => {
                 title: "Message Sent",
                 description: "Thank you for your message, I will get back to you soon.",
             });
+            setIsSubmitting(false);
         }, 1500);
 
-        setIsSubmitting(false);
+        
 
     }
 
@@ -182,11 +184,13 @@ export const ContactSection = () => {
                             />
                               
                         </div>
-                        <button type="submit" className={cn(
+                        <button type="submit" 
+                        disabled={isSubmitting}
+                        className={cn(
                             "cosmic-button w-full flex items-center justify-center gap-2",
 
                             )}>
-                                Send Message
+                                {isSubmitting ? "Sending..." : "Send Message"}
                                 <Send size={16}/>
                                 
                         </button>
