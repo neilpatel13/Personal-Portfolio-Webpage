@@ -16,16 +16,17 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With 6+ years in web development, I craft fast, accessible, and
+              responsive web apps using today’s top tech—built for performance, designed for users. 
+              Obtained both a Bachelor's & Master's degree in Computer Science, I have a
+              strong foundation in software engineering principles and
+              practices.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I thrive on solving complex problems with clean, 
+              efficient solutions—and I’m always exploring 
+              new tech to stay ahead in the fast-moving world of web development.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +36,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/1TW92EYblg0xYP11uOi54hqLmyEkaKkgR/view?usp=sharing"
+                target="_blank"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
