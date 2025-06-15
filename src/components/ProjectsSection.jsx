@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Project 1",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/p1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Personal Banking App",
+    description: "A robust banking app for user-friendly banking tasks of Depositing, Withdrawing, and Transferring funds",
+    image: "/projects/PI1.png",
+    tags: ["Python", "CSS", "MySQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/neilpatel13/Banking-Application",
   },
   {
     id: 2,
-    title: "Project 2",
+    title: "Focus Time App",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/p2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Full-featured Pomodoro timer app with task management and analytics.",
+    image: "/projects/PI2.png",
+    tags: ["JavaScript", "Google API", "Firebase", "MaterialUI", "Jira", "Jest [Testing]"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/neilpatel13/CS490-Project",
   },
   {
     id: 3,
-    title: "Project 3",
+    title: "LoudenNet",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/p3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A full-stack web app integrating YouTube and LinkedIn APIs forcross-platform content analytics.",
+    image: "/projects/PI3.png",
+    tags: ["HTML", "CSS", "JavaScript" , "Node.js", "Express", "MySQL"],
+    demoUrl: "https://loudennet.com/",
+    githubUrl: "https://github.com/Willlouden-com-Inc/loudennet/tree/finalsave",
   },
 ];
 
