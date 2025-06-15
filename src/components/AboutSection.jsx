@@ -66,10 +66,11 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">MySQL Design</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Designing robust backend architectures and 
+                    efficient database systems for scalable, 
+                    high-performance applications.
                   </p>
                 </div>
               </div>
@@ -84,7 +85,7 @@ export const AboutSection = () => {
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
                     Leading projects from conception to completion with agile
-                    methodologies.
+                    methodologies and Scrum.
                   </p>
                 </div>
               </div>
