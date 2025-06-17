@@ -115,7 +115,7 @@ export const ContactSection = () => {
                             <a href="#" target="_blank" className="hover:text-primary transition-colors">
                                 <Instagram />
                             </a>
-                            <a href="https://drive.google.com/file/d/1TW92EYblg0xYP11uOi54hqLmyEkaKkgR/view?usp=sharing" target="_blank" className="hover:text-primary transition-colors">
+                            <a href="https://docs.google.com/document/d/1jrktGnG8JaBvwqhIRfshJ3HFMpT12VW7gjNxA2rcK4g/edit?usp=sharing" target="_blank" className="hover:text-primary transition-colors">
                                 <BookType />
                             </a>
 
