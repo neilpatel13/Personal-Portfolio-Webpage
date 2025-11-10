@@ -30,6 +30,17 @@ const projects = [
     demoUrl: "https://loudennet.com/",
     githubUrl: "https://github.com/Willlouden-com-Inc/loudennet/tree/finalsave",
   },
+  {
+    id: 4,
+    title: "Online Marketplace",
+    description:
+      "A functional online marketplace using Django,implementing item listings, search functionality, and a user dashboard to manage listings",
+    image: "/projects/PI4.png",
+    tags: ["Python", "Django"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/neilpatel13/Django-practice-project",
+  },
+
 ];
 
 export const ProjectsSection = () => {
